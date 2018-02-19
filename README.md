@@ -1,1 +1,1 @@
-# hangman-game-node2
+# hangman_game_node
