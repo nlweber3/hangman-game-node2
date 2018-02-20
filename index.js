@@ -7,10 +7,9 @@ var word = require("./word.js");
 var answerArray = [];
 
 for(var i=0; i<word.words.length; i++) {
-    answerArray[i] = "_";
-   
-  }
- console.log(answerArray);
+  answerArray[i] = "_";
+}
+console.log(answerArray);
 
 
 inquirer
@@ -22,13 +21,10 @@ inquirer
   name: "userGuess"
 }
 ]).then(function(inquirerResponse) {
- this.showLetters = function() {
-  if(this.letters = '') {
-    this.guessedLetters = true;
-  }
-  else {
-    this.guessedLetters = false;
-
-  }
+  if(inquirerResponse = answerArray) {
+    console.log('working')
+}else {
+  console.log(error);
 }
+
 });
